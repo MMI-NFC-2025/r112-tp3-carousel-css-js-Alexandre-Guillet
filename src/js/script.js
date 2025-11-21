@@ -6,10 +6,10 @@ const nextButton = document.querySelector(".carousel__button--next");
 
 if (carousel)
   prevButton.addEventListener("click", () => {
-    carousel.scrollBy({ left: -260, behavior: "smooth" });
+    carousel.scrollBy({ left: -343, behavior: "smooth" });
   });
 
 if (carousel)
   nextButton.addEventListener("click", () => {
-    carousel.scrollBy({ left: +260, behavior: "smooth" });
+    carousel.scrollBy({ left: +343, behavior: "smooth" });
   });
